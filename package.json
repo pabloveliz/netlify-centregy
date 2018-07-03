@@ -1,0 +1,16 @@
+{
+  "name": "centregy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^0.6.1",
+    "vuepress": "^0.10.2"
+  },
+  "scripts": {
+    "docs:dev"   : "vuepress dev site",
+    "docs:build" : "vuepress build site",
+    "docs:theme" : "vuepress eject",
+    "docs:init"  : "tailwind init tailwind.config.js"
+  }
+}
